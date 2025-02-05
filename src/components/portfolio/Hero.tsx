@@ -1,19 +1,24 @@
 "use client";
 import React from "react";
-import { useAppStore } from "@/store/appStore";
+
 import { usePortfolioStore } from "@/store/usePortfolioStore";
-import { HeroEditableWithAuth } from "portfolioui/hr-favorite";
+
+import { RippleDemo } from "./Ripple";
 
 export const Hero = () => {
-  const { portfolio, saveHeroInfo, isLoading } = usePortfolioStore();
-  const { isEditing } = useAppStore();
+  const {
+    portfolio: { heroInfo },
+    isLoading,
+  } = usePortfolioStore();
+  //const { isEditing } = useAppStore();
 
   return (
-    <HeroEditableWithAuth
-      isEditing={isEditing}
-      heroInfo={portfolio.heroInfo}
-      saveHeroInfo={saveHeroInfo}
-      isLoading={isLoading}
-    />
+    // <HeroEditableWithAuth
+    //   isEditing={isEditing}
+    //   heroInfo={portfolio.heroInfo}
+    //   saveHeroInfo={saveHeroInfo}
+    //   isLoading={isLoading}
+    // />
+    <RippleDemo heroInfo={heroInfo} isLoading={isLoading} />
   );
 };

@@ -1,6 +1,7 @@
 import { usePortfolioStore } from "@/store/usePortfolioStore";
 import { Skeleton } from "../ui/skeleton";
-import { ContactViewWithAuth } from "portfolioui/hr-favorite";
+
+import ScratchCardFooter from "./ScratchCardFooter";
 
 export default function Footer() {
   const { portfolio, isLoading } = usePortfolioStore();
@@ -15,7 +16,12 @@ export default function Footer() {
     );
   }
   return (
-    <ContactViewWithAuth
+    // <ContactViewWithAuth
+    //   email={personalInfo.email}
+    //   phoneNumber={personalInfo.contactNumber}
+    // />
+
+    <ScratchCardFooter
       email={personalInfo.email}
       phoneNumber={personalInfo.contactNumber}
     />

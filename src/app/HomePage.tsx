@@ -8,6 +8,7 @@ import { Skills } from "@/components/portfolio/Skills";
 import { PortfolioType, usePortfolioStore } from "@/store/usePortfolioStore";
 import { useEffect } from "react";
 import { ApplyChangesButton } from "@/components/ApplyChangesButton";
+import { ScrollProgressDemo } from "@/components/portfolio/ScrollProgress";
 
 interface HomePageProps {
   portfolio: PortfolioType;
@@ -27,6 +28,7 @@ export default function HomePage({ portfolio, url }: HomePageProps) {
       <div className="pb-5 relative">
         <PasswordInput />
         <ApplyChangesButton />
+        <ScrollProgressDemo />
         <Dock />
         <Hero />
         <Skills />
