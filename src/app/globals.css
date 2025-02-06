@@ -38,7 +38,7 @@ body {
     --chart-2: 176 58% 39%; /* Darker Teal */
     --chart-3: 178 37% 24%; /* Even Darker Teal */
     --chart-4: 176 74% 66%; /* Lighter Teal */
-    --chart-5: 174 87% 67%; /* Bright Teal */
+    --chart-5: 174 87% 67%; /* Bright Teal */ --color-1: 0 100% 63%; --color-2: 270 100% 63%; --color-3: 210 100% 63%; --color-4: 195 100% 63%; --color-5: 90 100% 63%;
   }
 
   .dark {
@@ -65,7 +65,7 @@ body {
     --chart-2: 172 60% 45%; /* Darker Teal */
     --chart-3: 178 80% 55%; /* Lighter Teal */
     --chart-4: 176 65% 60%; /* Bright Teal */
-    --chart-5: 174 75% 55%; /* Vibrant Teal */
+    --chart-5: 174 75% 55%; /* Vibrant Teal */ --color-1: 0 100% 63%; --color-2: 270 100% 63%; --color-3: 210 100% 63%; --color-4: 195 100% 63%; --color-5: 90 100% 63%;
   }
 }
 
