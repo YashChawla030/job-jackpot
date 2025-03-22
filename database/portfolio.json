@@ -88,9 +88,14 @@
         "id": "1740395765849",
         "name": "AWS",
         "rating": 5
+      },
+      {
+        "id": "1742636831086",
+        "name": "Github",
+        "rating": 8.5
       }
     ],
-    "skillAnimationType": "still-animation"
+    "skillAnimationType": "moving-animation"
   },
   "achievementsInfo": {
     "displayName": "Achievements",
